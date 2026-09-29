@@ -28,8 +28,10 @@ class Student:
         print("Marks:", self.marks)
 
 
+# Creating Student object
 student1 = Student("Ali", 101, "BSCS", 85)
 
+# Displaying student information
 student1.display()
 
 #task3
@@ -43,10 +45,11 @@ class Rectangle:
         print("Area:", area)
 
 
-
+# Creating two rectangle objects
 rectangle1 = Rectangle(10, 5)
 rectangle2 = Rectangle(8, 4)
 
+# Calculating and displaying areas
 rectangle1.calculate_area()
 rectangle2.calculate_area()
 
@@ -79,8 +82,8 @@ account1 = BankAccount("Ali", 12345, 10000)
 
 account1.deposit(2000)
 
-
+# Withdraw money
 account1.withdraw(3000)
 
-
+# Display account information
 account1.display_balance()
