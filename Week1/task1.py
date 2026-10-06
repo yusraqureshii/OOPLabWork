@@ -1,4 +1,4 @@
-class Car:
+class Cars:
     def __init__(self, model, year, color):
         self.model = model
         self.year = year
@@ -12,8 +12,8 @@ class Car:
     def car_start(self):
         print("The car is started")
 
-
-car1 = Car("Toyota", 2026, "black")
+# object creation
+car1 = Cars("Toyota", 2026, "black")
 
 car1.display()
 car1.car_start()
